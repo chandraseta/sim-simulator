@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SIM Simulator</string>
+    <string name="app_name_uppercase">SIM SIMULATOR</string>
+    <string name="logo_description">SIM Simulator Logo</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="forget_password">Forget Your Password?</string>
+    <string name="forget_instruction">Enter your email address and we will send an email with instructions to reset your password.</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hint_name">Jon Snow</string>
+    <string name="hint_email">email@address.com</string>
+    <string name="hint_password">password</string>
+    <string name="forget">Reset Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="redirect_login">Already have an account? Sign in</string>
+    <string name="redirect_signup">Don\'t have an account? Create a new one</string>
+    <string name="redirect_forget">Forgot password?</string>
+    <string name="redirect_relogin">Back to login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="str_next">Next</string>
+    <string name="str_back">Back</string>
+
+    <string name="help_title">Welcome to SIM Simulator</string>
+    <string name="help_content">"SIM Simulator by TheSim aims to help you pass your driving license test. This Android application is a subset of our system. The full system is currently under active development. \n\nIn Android SIM Simulator, you could test your knowledge about traffic and driving in general. Choose the correct answer on each question and let us evaluate your performance in the driving license theory test. \n\nThe main menu can be accessed by clicking the logo in the main page or by swiping right from the left edge of your phone."</string>
+
+    <string name="edit_name">Changing identity? Enter your new name below:</string>
+    <string name="edit_name_button">Change Name</string>
+    <string name="edit_email">Someone hacked your email? Enter your new email below:</string>
+    <string name="edit_email_button">Change Email</string>
+    <string name="edit_password">Have a new catchphrase in mind? Enter your new password below:</string>
+    <string name="edit_password_button">Change Password</string>
+
+    <string name="submit">Submit</string>
+</resources>

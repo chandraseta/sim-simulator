@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thesim.simsimulator">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" />
+    <uses-feature android:name="android.hardware.sensor.compass" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_simple"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo_simple"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeNoTitleBar">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppThemeNoTitleBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AuthActivity"
+            android:theme="@style/AppThemeNoTitleBar">
+        </activity>
+        <activity android:name=".SettingsActivity"
+            android:theme="@style/AppThemeNoTitleBar">
+        </activity>
+        <activity android:name=".TestActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service android:name=".NotificationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".LocationService"
+            android:enabled="true"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

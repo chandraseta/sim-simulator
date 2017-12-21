@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "440097552492",
+    "firebase_url": "https://sim-simulator.firebaseio.com",
+    "project_id": "sim-simulator",
+    "storage_bucket": "sim-simulator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440097552492:android:10973c521e35d9c4",
+        "android_client_info": {
+          "package_name": "com.thesim.simsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440097552492-6n04tqqir9pk96gn88219uhji5iv6h1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thesim.simsimulator",
+            "certificate_hash": "651f3c36dedbcf6f597a65eb55fc8f812e75d629"
+          }
+        },
+        {
+          "client_id": "440097552492-s0g68vlo11iu76mp4k36nlfn0gldojo6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thesim.simsimulator",
+            "certificate_hash": "732437e0d35588db384c08915c622031e1a3dbb8"
+          }
+        },
+        {
+          "client_id": "440097552492-1grcfp9gjsvn2cqu6l93t6vej4jkgu1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3JKK5tiXJrwxTkrdiQhQa4XAVAd-F70g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440097552492-1grcfp9gjsvn2cqu6l93t6vej4jkgu1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

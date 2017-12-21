@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.thesim.simsimulator.LoginFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView android:src="@drawable/app_logo_simple"
+                android:contentDescription="@string/logo_description"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingBottom="8dp"
+                android:textColor="@color/fontDark"
+                android:text="@string/forget_password" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fontLessDark"
+                android:text="@string/forget_instruction"/>
+
+            <EditText android:id="@+id/forget_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="8dp"
+                android:fontFamily="sans-serif"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/fontLessDark"
+                android:hint="@string/hint_email" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/button_forget"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:background="@color/colorAccent"
+                android:textColor="@color/offWhite"
+                android:text="@string/forget"/>
+
+            <TextView android:id="@+id/link_relogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="@string/redirect_relogin"
+                android:gravity="center"
+                android:textColor="@color/fontLessDark"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,23 @@
+<MainMenu xmlns="MarkLight">
+    <Region Width="25%" Alignment="Left" Margin="30,30,15,30">
+        <Group Spacing="10px" Alignment="Bottom">
+            <Button Text="Login" Click="Login" />
+            <Button Text="Go" Click="StartGame" />
+            <Button Text="Options" Click="Options" />
+            <Button Text="Quit" Click="Quit" />
+        </Group>
+    </Region>
+    <Region Width="75%" Alignment="Right" Margin="15,30,30,30">        
+        <ViewSwitcher Id="ContentViewSwitcher">
+            <Region>
+                <LoginView id="loginView" />
+            </Region>
+            <Region>
+                <LevelSelectionView id="levelSelectionView" />
+            </Region>
+            <Region>
+                <OptionsView id="optionsView" />
+            </Region>
+        </ViewSwitcher>
+    </Region>
+</MainMenu>

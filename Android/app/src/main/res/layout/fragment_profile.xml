@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.thesim.simsimulator.SignUpFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="56dp">
+
+            <ImageView
+                android:id="@+id/edit_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:contentDescription="@string/logo_description"
+                android:src="@drawable/app_logo_simple" />
+
+            <TextView
+                android:id="@+id/edit_name_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_name"
+                android:textColor="@color/fontDark" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint_name"
+                android:inputType="textCapWords"
+                android:textColor="@color/fontLessDark" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/button_profile_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:padding="12dp"
+                android:text="@string/edit_name_button"
+                android:textColor="@color/offWhite" />
+
+            <TextView
+                android:id="@+id/edit_email_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_email"
+                android:textColor="@color/fontDark" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/fontLessDark" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/button_profile_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:padding="12dp"
+                android:text="@string/edit_email_button"
+                android:textColor="@color/offWhite" />
+
+            <TextView
+                android:id="@+id/edit_password_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_password"
+                android:textColor="@color/fontDark" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/hint_password"
+                    android:inputType="textPassword"
+                    android:textColor="@color/fontLessDark" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/button_profile_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/colorAccent"
+                android:padding="12dp"
+                android:text="@string/edit_password_button"
+                android:textColor="@color/offWhite" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

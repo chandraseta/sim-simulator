@@ -1,0 +1,13 @@
+<OptionsView xmlns="MarkLight">
+  <Region Alignment="Right" Width="50%">
+    <Group Spacing="10px" Alignment="Bottom" ContentAlignment="Left">
+        <CheckBox Text="Traction Control" IsChecked="{TractionControl}" />
+        <CheckBox Text="Active Breaking System" IsChecked="{ABS}" />
+        <CheckBox Text="Electronic Stability Program" IsChecked="{ESP}" />
+        <InputField Id="Port" Text="{ArduinoPort}" Width="100%">
+            <Label Text="Arduino Port" FontColor="gray" Alignment="Left" Margin="10,0,0,0"/>
+        </InputField>
+        <Button Id="OptionsButton" Text="Save" Click="OptionsChanged"/>
+    </Group>
+  </Region>
+</OptionsView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="4"
+        android:entries="@array/questions_amount"
+        android:entryValues="@array/questions_amount"
+        android:summary="Amount of question in theory test"
+        android:key="list_preferences"
+        android:title="Questions Amount">
+
+    </ListPreference>
+</PreferenceScreen>

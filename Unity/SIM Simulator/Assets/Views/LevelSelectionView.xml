@@ -1,0 +1,11 @@
+<LevelSelectionView xmlns="MarkLight">
+    <Region Alignment="Right" Width="30%">
+        <Group Spacing="10px" Alignment="Bottom" ContentAlignment="Right">
+            <Button Id="Stage1" Text="Stage 1" Click="PlayStage1" />
+            <Button Id="Stage2" Text="Stage 2" Click="PlayStage2" />
+            <Button Id="Stage3" Text="Stage 3" Click="PlayStage3" />
+            <Button Id="Stage4" Text="Stage 4" Click="PlayStage4" />
+            <Button Id="Stage5" Text="Stage 5" Click="PlayStage5" />
+        </Group>
+    </Region>
+</LevelSelectionView>

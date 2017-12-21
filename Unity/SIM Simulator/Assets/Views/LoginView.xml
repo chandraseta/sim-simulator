@@ -1,0 +1,15 @@
+<LoginView xmlns="MarkLight">
+    <Region Width="50%" Alignment="Right">
+        <Group Spacing="10px" Alignment="Bottom" ContentAlignment="Right">
+            <InputField Id="EmailField" Text="{Email}" Width="100%">
+                <Label Text="Email" FontColor="gray" Alignment="Left" Margin="10,0,0,0"/>
+            </InputField>
+
+            <InputField Id="PasswordField" Text="{Password}" ContentType="password" Width="100%">
+                <Label Text="Password" FontColor="gray" Alignment="Left" Margin="10,0,0,0"/>
+            </InputField>
+            
+            <Button Id="LoginButton" Text="Login" Click="Login"/>
+        </Group>
+    </Region>
+</LoginView>
